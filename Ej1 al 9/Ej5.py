@@ -29,7 +29,8 @@ else:
     print ('Title OK')
 
 from collections import Counter
-sentences = article.split('.')
+sentences = article.split('\n', 1)[1]
+sentences = sentences.split('.')
 counter_sentences = Counter()
 
 for sentence in sentences:
