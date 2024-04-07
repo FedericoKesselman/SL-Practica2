@@ -17,4 +17,8 @@ info_players = generate_structure (names, goals, goals_avoided, assists)
 scorer = most_scorer(info_players)
 print (f'Mas goleador/a: ', scorer[0], ' con ', scorer[1], ' goles.')
 
+# function3
+influential = most_influential(info_players)
+print (f'Jugador/a mas influyente: ', influential[0], ' con ', influential[1], ' puntos.')
+
 
