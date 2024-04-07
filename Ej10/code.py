@@ -13,4 +13,8 @@ assists = [0, 5, 1, 0, 5, 2, 0, 0, 1, 2, 1, 5, 5, 0, 1, 0, 2, 3, 1, 0]
 
 info_players = generate_structure (names, goals, goals_avoided, assists)
 
+# function2
+scorer = most_scorer(info_players)
+print (f'Mas goleador/a: ', scorer[0], ' con ', scorer[1], ' goles.')
+
 
