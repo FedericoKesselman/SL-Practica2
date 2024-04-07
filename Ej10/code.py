@@ -25,4 +25,6 @@ print (f'Jugador/a mas influyente: ', influential[0], ' con ', influential[1], '
 average_goals_team = average_team_goals(goals)
 print (f'Promedio de goles por partido del equipo: ', average_goals_team)
 
-
+# function5
+average_goals_scorer = scorer[1] / 25
+print (f'Promedio de goles por partido del mas goleador/a: ', average_goals_scorer)
